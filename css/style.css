@@ -787,63 +787,137 @@ p.secnumberbg {
     background: rgba(0, 0, 0, 0);
 }
 
- .overlay1:hover {
+.overlay1:hover {
     display: block;
     background: #eb008970;
 }
+
 .overlay2:hover {
     display: block;
     background: #eb008970;
 }
+
 .overlay3:hover {
     display: block;
     background: #eb008970;
 }
+
 .overlay4:hover {
     display: block;
     background: #eb008970;
 }
+
 .overlay5:hover {
     display: block;
     background: #eb008970;
 }
+
 .overlay6:hover {
     display: block;
     background: #eb008970;
 }
-.footerbg{
+
+.footerbg {
     background-image: url(../images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     padding: 60px 200px;
 }
-.menusec{
+
+.menusec {
     display: flex;
     justify-content: space-around;
 }
-.menusec p a{
+
+.menusec p a {
     font-family: 'Manrope';
     font-size: 16px;
     color: #27252A;
     text-decoration: none;
 }
-.newheadtext{
+
+.newheadtext {
     font-family: 'Libre Baskerville';
     font-size: 20px;
-    color: #27252A; 
+    color: #27252A;
 }
-.seclettrp{
+
+.seclettrp {
     font-family: 'Manrope';
-    font-size: 16px;
+    font-size: 14px;
     color: #89868D;
+    text-decoration: none;
 }
+
 button.btn.btn-default {
     background: #FBA92C !important;
     border-radius: 0px;
     font-size: 30px;
     color: #fff;
 }
-.subscribe_now input{
+
+.subscribe_now input {
     border-radius: 0;
 }
+
+.seclettrp i {
+    color: #FBA92C;
+}
+.iconmaisec{
+    display: flex;
+    justify-content:space-evenly;
+padding-top: 10px;
+}
+.iconmaisec p a {
+border: 1px solid #89868D;
+border-radius: 50px;
+padding: 7px 10px;
+}
+.iconmaisec p a i{
+    color: #89868D ;
+}
+.iconmaisec p a:hover {
+    border: 1px solid #EB008B;
+    background: #FBA92C;
+ }
+
+
+ /* back to top */
+ #button {
+    display: inline-block;
+    background-color: #EB008B;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f062";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #FBA92C;
+  }
+  #button:active {
+    background-color: #FBA92C;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }

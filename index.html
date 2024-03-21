@@ -52,6 +52,7 @@
     <!-- header -->
     <div include-html="header.html" id="header-file"></div>
 
+
     <!-- 25+ Years of Experience -->
     <div class="container-fluid  yearbg">
         <div class="container">
@@ -90,6 +91,9 @@
             </div>
         </div>
     </div>
+
+    <!-- back to top -->
+    <a id="button"></a>
 
     <!-- imgtop -->
     <div class="container-fluid imgtopsec">
@@ -978,6 +982,8 @@
     <script src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
     <script>
 
+        
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -1013,6 +1019,24 @@ $('.owl-carousel').owlCarousel({
 
 
         });
+
+        var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+
         // month/year//
         document.querySelector('#toggleAll').addEventListener('click', function () {
             document.querySelector('#monthlyPrice').classList.toggle('hidden');
