@@ -381,7 +381,6 @@ p.secnumberbg {
     background-image: url(../images/gettbg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
     padding: 100px 200px;
   }
   .getttext p{
@@ -404,4 +403,55 @@ p.secnumberbg {
     color: #fff;
     font-family: 'Manrope';
     font-size: 16px;
+}
+.secbtnget {
+    padding-top: 30px;
+}
+.secbtnget a{
+    color: #fff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background: #FBA92C;
+}
+.secbtnget a:hover{
+    background: #97CA45;
+}
+.imgcontext{
+    width: 70%;
+    z-index: 1;
+}
+.imgtextget2{
+    background: #97CA45;
+    background-image: url(../images/divgetimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 40px;
+    width: 60%;
+    margin-left: 190px;
+    margin-top: -300px;
+    z-index: 10;
+    position: relative;
+}
+.imgtextget2 h4{
+    color: #fff;
+    font-family: 'Manrope';
+    font-size: 20px;
+}
+.timesec{
+    color: #fff;
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+.meq2bg{
+    background: #EB008B;
+}
+.meqtext2{
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-style: normal;
+    color: #fff ;
+    padding: 5px 0px;
 }
