@@ -490,3 +490,17 @@ p.secnumberbg {
 .shopbtnsec a:hover{
     background: #EB008B;
 }
+.webmainsec{
+    padding-bottom: 50px !important;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.secwebgco{
+    padding: 0;
+    background: #27252A;
+    margin-top: 60px;
+    margin-bottom: -50px;
+}
+.swetectcol{
+    padding: 60px;
+}
