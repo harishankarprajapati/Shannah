@@ -49,40 +49,48 @@
     height: 600px;
     padding: 100px 200px;
 }
-.homemaintext p{
+
+.homemaintext p {
     font-family: 'Manrope';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     color: #97CA45;
 }
-.homemaintext h3{
+
+.homemaintext h3 {
     font-family: 'Libre Baskerville';
     font-size: 55px;
     font-style: normal;
     font-weight: 500;
     color: #fff;
 }
-.videbttn img{
+
+.videbttn img {
     padding-top: 60px;
 }
-.imgtopsec{
+
+.imgtopsec {
     margin-top: -300px;
 }
-.meqimgg{
+
+.meqimgg {
     width: 27px;
 }
-.meqtext{
+
+.meqtext {
     font-family: 'Libre Baskerville';
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
 }
-.btn.btn-primary.videbttn{
-background: transparent !important;
-border: 0 !important;
+
+.btn.btn-primary.videbttn {
+    background: transparent !important;
+    border: 0 !important;
 }
-.ourtext p{
+
+.ourtext p {
     color: #FBA92C;
     font-family: 'Manrope';
     font-size: 20px;
@@ -91,75 +99,90 @@ border: 0 !important;
     text-align: center;
     text-transform: uppercase;
 }
-.ourtext h3{
+
+.ourtext h3 {
     color: #000;
     font-family: 'Libre Baskerville';
     font-size: 30px;
     text-align: center;
 }
-.ourboxbg{
+
+.ourboxbg {
     background: #FCF5F5;
     padding: 20PX;
 }
-.ourboxbg p{
+
+.ourboxbg p {
     color: #000;
     font-family: 'Libre Baskerville';
     font-size: 18px;
 }
-.abuttext p{
+
+.abuttext p {
     color: #FBA92C;
     font-family: 'Manrope';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
 }
-.abuttext h3{
+
+.abuttext h3 {
     color: #000;
     font-family: 'Libre Baskerville';
     font-size: 35px;
 }
-.padd-le{
+
+.padd-le {
     padding-left: 60px;
 }
-.We-sec p{
+
+.We-sec p {
     color: #000;
     font-family: 'Libre Baskerville';
     font-size: 20px;
     padding-top: 40px;
 }
-.We-sec h4{
+
+.We-sec h4 {
     color: #FBA92C;
     font-family: 'Libre Baskerville';
     font-size: 120px;
 }
-.We-sec span{
+
+.We-sec span {
     color: #000;
     font-family: 'Libre Baskerville';
     font-size: 16px;
     padding-top: 20px;
 }
-.atsec{
+
+.atsec {
     color: #89868D;
     font-family: 'Manrope';
     font-size: 16px;
     padding-top: 20px;
 }
-.We-sec2 p{
+
+.We-sec2 p {
     color: #89868D;
     font-family: 'Libre Baskerville';
     font-size: 16px;
-   
+
 }
-.weicon{
+
+.weicon {
     width: 27px;
 }
-.sechr{
+
+.sechr {
     width: 70%;
 }
-.secredbtn{
+
+.secredbtn {
     padding-top: 10px;
 }
-.secredbtn a{
+
+.secredbtn a {
     color: #fff;
     font-family: 'Manrope';
     font-size: 16px;
@@ -169,22 +192,25 @@ border: 0 !important;
     text-transform: uppercase;
     text-decoration: none;
 }
-.sec5m a{
+
+.sec5m a {
     color: #000;
     font-family: 'Manrope';
     font-size: 18px;
     text-decoration: none;
     font-weight: 700;
-    
+
 }
-.sec5mhr{
+
+.sec5mhr {
     color: #FBA92C;
     margin: 0;
     width: 78%;
     border: 2px solid;
     opacity: 1;
 }
-.serbgg{
+
+.serbgg {
     background-image: url(../images/serbggg.png);
     background-repeat: no-repeat;
     background-color: #fcf5f5;
@@ -192,19 +218,22 @@ border: 0 !important;
     height: 650px;
     padding: 60px 10px;
 }
-.paddser{
+
+.paddser {
     padding: 60px;
 }
-.bggsebox{
+
+.bggsebox {
     background: #fff;
     padding: 20px 15px;
     text-align: center;
 }
+
 p.secnumberbg {
     text-align: left;
 }
 
-.secnumberbg a{
+.secnumberbg a {
     background: #FBA92C;
     border-radius: 50px;
     padding: 10px 11px;
@@ -213,44 +242,51 @@ p.secnumberbg {
     color: #fff !important;
     text-align: left !important;
 }
-.secsertex{
+
+.secsertex {
     font-family: 'Libre Baskerville';
     font-size: 15px;
     padding-top: 25px;
 }
-.secbannerbg{
+
+.secbannerbg {
     padding: 10px 60px;
     margin-top: -120px;
 }
+
 /* month/year */
 
 .switch-container {
-    display:inline-flex;
-    align-items:center;
+    display: inline-flex;
+    align-items: center;
     padding: 5px 10px;
     font-family: 'Libre Baskerville' !important;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
-  }
-  
-  .switch {
+}
+
+.switch {
     display: inline-flex;
     margin: 0 10px;
-  }
-  .switch input[type=checkbox] {
+}
+
+.switch input[type=checkbox] {
     height: 0;
     width: 0;
     visibility: hidden;
-  }
-  .switch input[type=checkbox]:checked + label {
+}
+
+.switch input[type=checkbox]:checked+label {
     background: #97CA45;
-  }
-  .switch input[type=checkbox]:checked + label::after {
+}
+
+.switch input[type=checkbox]:checked+label::after {
     left: calc(100% - 4px);
     transform: translateX(-100%);
-  }
-  .switch label {
+}
+
+.switch label {
     cursor: pointer;
     width: 48px;
     height: 24px;
@@ -258,9 +294,10 @@ p.secnumberbg {
     display: block;
     border-radius: 24px;
     position: relative;
-    margin-bottom:0;
-  }
-  .switch label::after {
+    margin-bottom: 0;
+}
+
+.switch label::after {
     content: "";
     position: absolute;
     top: 4px;
@@ -270,43 +307,50 @@ p.secnumberbg {
     background: white;
     border-radius: 16px;
     transition: 0.3s;
-  }
-    
-  .hidden {
-      display: none;
-  }
+}
 
-  .Basicbgg{
+.hidden {
+    display: none;
+}
+
+.Basicbgg {
     background: #27252A;
     padding: 50px;
-  }
-  .lefttextbas{
+}
+
+.lefttextbas {
     border-right: 1px solid rgb(68, 67, 67);
-  }
-  .lefttextbas h5{
+}
+
+.lefttextbas h5 {
     font-family: 'Libre Baskerville';
     font-size: 18px;
     color: #fff !important;
-  }
-  .lefttextbas h4{
+}
+
+.lefttextbas h4 {
     font-family: 'Libre Baskerville';
     font-size: 35px;
-    color: #fff ;
-  }
-  .lefttextbas h4 span{
+    color: #fff;
+}
+
+.lefttextbas h4 span {
     font-family: 'Manrope';
     font-size: 16px;
-    color: #89868D ;
-  }
-  .lefttextbas p{
+    color: #89868D;
+}
+
+.lefttextbas p {
     font-family: 'Manrope';
     font-size: 16px;
-    color: #89868D ;
-  }
-  .secbesbtn{
+    color: #89868D;
+}
+
+.secbesbtn {
     padding-top: 20px;
-  }
-  .secbesbtn a{
+}
+
+.secbesbtn a {
     font-family: 'Manrope';
     font-size: 16px;
     color: #fff;
@@ -314,76 +358,90 @@ p.secnumberbg {
     text-decoration: none;
     background: #EB008B;
     padding: 12px 25px;
-  }
-  .secbesbtn a:hover{
+}
+
+.secbesbtn a:hover {
     color: #EB008B;
-    background: rgb(252,245,245);
-  }
-  .ictext{
+    background: rgb(252, 245, 245);
+}
+
+.ictext {
     font-family: 'Manrope';
     font-size: 16px;
     color: #fff;
     margin: 0;
     padding-left: 20px;
-  }
-  .Basicbgg2{
-    background: rgb(252,245,245);
+}
+
+.Basicbgg2 {
+    background: rgb(252, 245, 245);
     padding: 50px;
-  }
-  .lefttextbas2{
+}
+
+.lefttextbas2 {
     border-right: 1px solid #F0E8E8;
-  }
-  .lefttextbas2 h5{
+}
+
+.lefttextbas2 h5 {
     font-family: 'Libre Baskerville';
     font-size: 18px;
     color: #27252A !important;
-  }
-  .lefttextbas2 h4{
+}
+
+.lefttextbas2 h4 {
     font-family: 'Libre Baskerville';
     font-size: 35px;
-    color: #27252A ;
-  }
-  .lefttextbas2 h4 span{
+    color: #27252A;
+}
+
+.lefttextbas2 h4 span {
     font-family: 'Manrope';
     font-size: 16px;
-    color: #89868D ;
-  }
-  .lefttextbas2 p{
+    color: #89868D;
+}
+
+.lefttextbas2 p {
     font-family: 'Manrope';
     font-size: 16px;
-    color: #89868D ;
-  }
-  .secbesbtn2{
+    color: #89868D;
+}
+
+.secbesbtn2 {
     padding-top: 20px;
-  }
-  .secbesbtn2 a{
+}
+
+.secbesbtn2 a {
     font-family: 'Manrope';
     font-size: 16px;
     color: #EB008B;
     border: 1px solid #EB008B;
     text-transform: uppercase;
     text-decoration: none;
-    background: rgb(252,245,245);
+    background: rgb(252, 245, 245);
     padding: 12px 25px;
-  }
-  .secbesbtn2 a:hover{
-    color: rgb(252,245,245);
+}
+
+.secbesbtn2 a:hover {
+    color: rgb(252, 245, 245);
     background: #EB008B;
-  }
-  .ictext2{
+}
+
+.ictext2 {
     font-family: 'Manrope';
     font-size: 16px;
     color: #27252A;
     margin: 0;
     padding-left: 20px;
-  }
-  .getbgg{
+}
+
+.getbgg {
     background-image: url(../images/gettbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 200px;
-  }
-  .getttext p{
+}
+
+.getttext p {
     color: #97CA45;
     font-family: 'Manrope';
     font-size: 20px;
@@ -391,23 +449,28 @@ p.secnumberbg {
     font-weight: 500;
     text-transform: uppercase;
 }
-.getttext h3{
+
+.getttext h3 {
     color: #fff;
     font-family: 'Libre Baskerville';
     font-size: 35px;
 }
-.checksecp{
+
+.checksecp {
     padding-top: 20px;
 }
-.checksecp p{
+
+.checksecp p {
     color: #fff;
     font-family: 'Manrope';
     font-size: 16px;
 }
+
 .secbtnget {
     padding-top: 30px;
 }
-.secbtnget a{
+
+.secbtnget a {
     color: #fff;
     font-family: 'Manrope';
     font-size: 16px;
@@ -416,14 +479,17 @@ p.secnumberbg {
     padding: 15px 30px;
     background: #FBA92C;
 }
-.secbtnget a:hover{
+
+.secbtnget a:hover {
     background: #97CA45;
 }
-.imgcontext{
+
+.imgcontext {
     width: 70%;
     z-index: 1;
 }
-.imgtextget2{
+
+.imgtextget2 {
     background: #97CA45;
     background-image: url(../images/divgetimg.png);
     background-repeat: no-repeat;
@@ -435,51 +501,60 @@ p.secnumberbg {
     z-index: 10;
     position: relative;
 }
-.imgtextget2 h4{
+
+.imgtextget2 h4 {
     color: #fff;
     font-family: 'Manrope';
     font-size: 20px;
 }
-.timesec{
+
+.timesec {
     color: #fff;
     font-family: 'Manrope';
     font-size: 16px;
     padding-top: 10px;
 }
-.meq2bg{
+
+.meq2bg {
     background: #EB008B;
 }
-.meqtext2{
+
+.meqtext2 {
     font-family: 'Libre Baskerville';
     font-size: 20px;
     font-style: normal;
-    color: #fff ;
+    color: #fff;
     padding: 5px 0px;
 }
-.secshop h5{
+
+.secshop h5 {
     font-family: 'Libre Baskerville';
     font-size: 18px;
     color: #27252A;
     text-align: center;
     padding-top: 10px;
 }
-.secshop p{
+
+.secshop p {
     font-family: 'Manrope';
     font-size: 16px;
     color: #89868D;
     text-align: center;
 }
-.secshop p span{
+
+.secshop p span {
     font-family: 'Manrope';
     font-size: 16px;
     color: #EB008B;
     text-align: center;
 }
-.shopbtnsec{
+
+.shopbtnsec {
     text-align: center;
     padding-top: 20px;
 }
-.shopbtnsec a{
+
+.shopbtnsec a {
     font-family: 'Manrope';
     font-size: 16px;
     color: #fff;
@@ -487,62 +562,73 @@ p.secnumberbg {
     padding: 15px 30px;
     text-decoration: none;
 }
-.shopbtnsec a:hover{
+
+.shopbtnsec a:hover {
     background: #EB008B;
 }
-.webmainsec{
+
+.webmainsec {
     padding-bottom: 50px !important;
     margin-bottom: 50px;
     padding-top: 50px;
 }
-.secwebgco{
+
+.secwebgco {
     padding: 0;
     background: #27252A;
     margin-top: 60px;
     margin-bottom: -50px;
 }
-.swetectcol{
+
+.swetectcol {
     padding: 40px 60px;
 }
-.wlltext{
+
+.wlltext {
     color: #EB008B !important;
 }
-.wellacccsec{
+
+.wellacccsec {
     padding-top: 30px;
     position: relative;
 }
-.wellic{
+
+.wellic {
     font-size: 18px;
     color: #fff;
     background-color: #EB008B;
     padding: 10px;
     border-radius: 50px;
 }
-.wellacccsec h4{
+
+.wellacccsec h4 {
     font-family: 'Libre Baskerville';
     font-size: 20px;
     color: #fff;
     position: relative;
     z-index: 2;
 }
-.wellacccsec p{
+
+.wellacccsec p {
     font-family: 'Manrope';
     font-size: 16px;
     color: #89868D;
     padding-left: 45px;
 }
-.wellacccsec::after{
+
+.wellacccsec::after {
     content: "";
     position: absolute;
     top: 42px;
     left: 17px;
     right: 0;
     height: 215px;
-    background:linear-gradient(#424145, #fff);
+    background: linear-gradient(#424145, #fff);
     z-index: 1;
     width: 2px;
 }
-.secsltexttop{
+
+.secsltexttop {
     font-family: 'Manrope';
     font-size: 16px;
     color: #89868D;
@@ -555,56 +641,173 @@ p.secnumberbg {
     border: 1px solid #89868D;
     border-radius: 50px;
 }
+
 .prev.slick-arrow span i:hover {
     background: #FBA92C;
     color: #fff;
     border: 1px solid #fff;
 }
+
 .next.slick-arrow span i {
     font-size: 30px;
     padding: 18px 20px;
     border: 1px solid #89868D;
     border-radius: 50px;
 }
+
 .next.slick-arrow span i:hover {
     background: #FBA92C;
     color: #fff;
     border: 1px solid #fff;
 }
+
 .next.slick-arrow {
     padding-left: 30px;
 }
- 
-  .nav-height.position-absolute{
+
+.nav-height.position-absolute {
     display: flex;
-  }
- 
-  .image-nav {
+}
+
+.image-nav {
     z-index: 1;
     cursor: pointer;
-  }
- .sliderbggg{
+}
+
+.sliderbggg {
     background: #FCF5F5;
     padding: 30px;
- }
- .maintextsli p{
+}
+
+.maintextsli p {
     font-family: 'Manrope';
     font-size: 20px;
     color: #27252A;
- }
- .Eml h4{
+}
+
+.Eml h4 {
     font-family: 'Manrope';
     font-size: 20px;
     color: #27252A;
- }
- .Eml p{
+}
+
+.Eml p {
     font-family: 'Manrope';
     font-size: 14px;
     color: #89868D;
- }
- .secqutext{
+}
+
+.secqutext {
     font-family: 'Libre Baskerville';
     font-size: 14px;
     color: #27252A;
- }
-  
+}
+
+.newsbgg {
+    background-color: #27252A;
+    background-image: url(../images/newbgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 180px;
+}
+
+.secnewtit {
+    color: #fff !important;
+}
+
+.secfelstex {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #89868D;
+}
+
+.secbtnnew {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.secbtnnew a {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #FBA92C;
+    padding: 15px 35px;
+}
+
+.newblogimgtext p {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.newblogimgtext span {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1px 20px;
+    border-radius: 20px;
+}
+
+.newblogimgtext h4 {
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    color: #fff;
+}
+
+.redbtnsc {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.redbtnsc:hover {
+    text-decoration: underline;
+}
+
+.secgallery {
+    position: relative;
+}
+
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5,
+.overlay6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+
+ .overlay1:hover {
+    display: block;
+    background: #eb008970;
+}
+.overlay2:hover {
+    display: block;
+    background: #eb008970;
+}
+.overlay3:hover {
+    display: block;
+    background: #eb008970;
+}
+.overlay4:hover {
+    display: block;
+    background: #eb008970;
+}
+.overlay5:hover {
+    display: block;
+    background: #eb008970;
+}
+.overlay6:hover {
+    display: block;
+    background: #eb008970;
+}

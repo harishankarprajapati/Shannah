@@ -690,7 +690,7 @@
 
     <!-- pricing package -->
 
-    <div class="container-fluid py-5">
+    <div class="container-fluid pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -866,6 +866,98 @@
 
     </div>
 
+    <!-- News & Blog -->
+    <div class="container-fluid newsbgg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="abuttext">
+                        <p>
+                            <img src="images/ouricon.png" alt=""> &nbsp; &nbsp;
+                            News & Blog
+                        </p>
+                        <h3 class="secnewtit">The Latest News</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p class="secfelstex">Etiam metus felis, dapibus amet consequat convallis
+                        mollis Quisque scelerisque dui id fermentum
+                        venenatis aliquam lobortis ligula id efficitur iaculis.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="secbtnnew">
+                        <a href="#">All news</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-4">
+                    <div class="newblogimgtext">
+                        <img class="img-fluid" src="images/newimg1.png" alt="">
+                        <p><span>Spa </span> &nbsp; &nbsp; 12 March 2024</p>
+                        <h4>Best place of true splander</h4>
+
+                        <a class="redbtnsc" href="#">Read More &nbsp;  <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newblogimgtext">
+                        <img class="img-fluid" src="images/newimg2.png" alt="">
+                        <p><span>Spa </span> &nbsp; &nbsp; 12 March 2024</p>
+                        <h4>Top 6 tips for choosing </h4>
+
+                        <a class="redbtnsc" href="#">Read More &nbsp;  <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newblogimgtext">
+                        <img class="img-fluid" src="images/newimg3.png" alt="">
+                        <p><span>Spa </span> &nbsp; &nbsp; 12 March 2024</p>
+                        <h4>Best ocean islands for winter</h4>
+
+                        <a class="redbtnsc" href="#">Read More &nbsp;  <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- gallery -->
+    <div class=" secgallery">
+        
+             
+
+              <div class="owl-carousel owl-theme galley">
+                <div class="item">
+                    <img class="img-fluid" src="images/gal1.png" alt="" />
+              <div class="overlay1"></div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="images/gal2.png" alt="" />
+              <div class="overlay2"></div>
+                </div>
+              
+                <div class="item">
+                    <img class="img-fluid" src="images/gal3.png" alt="" />
+              <div class="overlay3"></div>
+                </div>
+              
+                <div class="item">
+                    <img class="img-fluid" src="images/gal4.png" alt="" />
+              <div class="overlay4"></div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="images/gal5.png" alt="" />
+              <div class="overlay5"></div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="images/gal6.png" alt="" />
+              <div class="overlay6"></div>
+                </div>
+              
+            </div>
+
+        </div>
+
 
 
 
@@ -885,6 +977,28 @@
     <script src="js/include-html.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
     <script>
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:6,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
         $('.slick', '.vertical-slider').slick({
             vertical: true,
             verticalSwiping: true,
