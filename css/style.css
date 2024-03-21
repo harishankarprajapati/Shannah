@@ -431,7 +431,7 @@ p.secnumberbg {
     padding: 30px 40px;
     width: 60%;
     margin-left: 190px;
-    margin-top: -300px;
+    margin-top: -320px;
     z-index: 10;
     position: relative;
 }
@@ -444,6 +444,7 @@ p.secnumberbg {
     color: #fff;
     font-family: 'Manrope';
     font-size: 16px;
+    padding-top: 10px;
 }
 .meq2bg{
     background: #EB008B;
@@ -454,4 +455,38 @@ p.secnumberbg {
     font-style: normal;
     color: #fff ;
     padding: 5px 0px;
+}
+.secshop h5{
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+    color: #27252A;
+    text-align: center;
+    padding-top: 10px;
+}
+.secshop p{
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #89868D;
+    text-align: center;
+}
+.secshop p span{
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #EB008B;
+    text-align: center;
+}
+.shopbtnsec{
+    text-align: center;
+    padding-top: 20px;
+}
+.shopbtnsec a{
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #fff;
+    background: #97CA45;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.shopbtnsec a:hover{
+    background: #EB008B;
 }
