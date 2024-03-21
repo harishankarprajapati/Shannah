@@ -811,3 +811,39 @@ p.secnumberbg {
     display: block;
     background: #eb008970;
 }
+.footerbg{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 60px 200px;
+}
+.menusec{
+    display: flex;
+    justify-content: space-around;
+}
+.menusec p a{
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #27252A;
+    text-decoration: none;
+}
+.newheadtext{
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    color: #27252A; 
+}
+.seclettrp{
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #89868D;
+}
+button.btn.btn-default {
+    background: #FBA92C !important;
+    border-radius: 0px;
+    font-size: 30px;
+    color: #fff;
+}
+.subscribe_now input{
+    border-radius: 0;
+}
