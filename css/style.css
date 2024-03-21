@@ -244,7 +244,7 @@ p.secnumberbg {
     visibility: hidden;
   }
   .switch input[type=checkbox]:checked + label {
-    background: #f31d9a;
+    background: #97CA45;
   }
   .switch input[type=checkbox]:checked + label::after {
     left: calc(100% - 4px);
