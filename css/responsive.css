@@ -206,7 +206,7 @@ element.style {
   font-size: 14px;
 }
 .wellacccsec::after {
-  height: 300px;
+  display: none;
 }
 .image-nav {
   padding-bottom: 65px;
