@@ -56,11 +56,11 @@ button.navbar-toggler {
   margin-top: -86px;
 }
 .newsbgg {
-  padding: 60px 10px;
+  padding: 20px 10px;
 }
 .footerbg {
   height: auto;
-  padding: 30px 20px;
+  padding: 30px 20px 1px 20px;
 }
 .offcanvas-header {
   background: #000;
@@ -141,6 +141,7 @@ element.style {
 .secbannerbg {
   padding: 10px 20px;
   margin-top: -52px;
+  padding-bottom: 0px !important;
 }
 .switch-container {
   margin-top: 25px !important;
@@ -227,118 +228,70 @@ element.style {
 .sec5mhr {
   width: 60%;
 }
-
+.secbtnnew {
+  padding-top: 20px;
+  padding-left: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:767px) {
-.sec-mar-min{
-  margin-top: 0px;
+.newblogimgtext {
+  margin-bottom: 20px;
+  border: 1px solid #515151;
+  padding: 4px;
 }
-.sec-padd-our ul li {
-  font-size: 18px;
-  line-height: 31px;
+.newblogimgtext h4 {
+  font-size: 16px;
 }
-.sec-padd-our {
-  padding: 40px 0px;
+.galley .owl-nav , .owl-dots{
+  display: none;
 }
-table.table {
-  width: 100%;
-  margin: auto;
-}
-.courses-bg h2 {
-  font-size: 30px;
-
-}
-.scop-margin{
-  margin-top: 0px;
-}
-.scop-text h2 {
-  font-size: 25px;
-}
-.scop-text p {
-  font-size: 18px;
-}
-.module-bg h2 {
-  font-size: 30px;
-}
-.test-text h3 {
-  font-size: 20px;
+.menusec {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
   padding-top: 20px;
 }
-.test-text h3 i {
-  font-size: 20px;
-  padding: 8px 9px;
+.menusec p {
+  margin-bottom: 8px !important;
 }
-.text-testmon {
-  font-size: 18px;
-  line-height: 30px;
+.newheadtext {
+  font-size: 17px;
 }
-.test-bg {
-  padding: 40px 0px;
+.subscribe_now {
+  padding-bottom: 20px;
 }
-.us-bg h3 {
-  font-size: 30px;
+.iconmaisec {
+  justify-content: flex-start;
 }
-.all-map {
-  display: flex;
-  flex-direction: column;
+.iconmaisec p {
+  padding-right: 10px;
+}
+.copysecmain {
+  flex-direction: column-reverse;
+  padding-top: 4px !important;
+}
+.sectefle {
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
 }
 
-.d-flex {
-  display: flex!important;
-  flex-direction: column;
-}
-.sec-enquiry{
-  padding-top: 40px;
-  width: 100%;
-  margin: auto;
-}
-div#selider1 .owl-stage-outer {
-  padding-top: 0px !important;
-}
-.bener-bg {
-  padding: 30px 10px;
-}
 
-.benefit-bg h4 {
-  font-size: 30px;
-}
-.benefit-bg ol li {
-  font-size: 18px;
-}
-.sec2-policy{
-  padding: 40px 10px !important;
-}
-.sec-policy2 {
-  font-size: 50px;
-  line-height: 60px;
-}
-.sec-line-pol , .secli{
-  font-size: 18px;
-}
-ol.m-0.p-0 {
-  padding: 10px 20px !important;
-}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

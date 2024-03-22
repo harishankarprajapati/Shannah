@@ -935,3 +935,7 @@ padding: 7px 10px;
     color: #89868D;
     text-decoration: none;
   }
+  .sectefle{
+    display: flex;    
+    justify-content: flex-end;
+  }
