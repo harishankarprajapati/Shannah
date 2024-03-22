@@ -40,6 +40,9 @@ a.navbar-brand {
   height: auto;
   padding: 40px 20px;
 }
+.imgtopsec {
+  margin-top: -30px;
+}
 button.navbar-toggler {
   background: #000;
 }
@@ -47,11 +50,10 @@ button.navbar-toggler {
   padding: 40px 20px;
 }
 .imgtextget2 {
-
-  padding: 20px 20px;
-  width: 100%;
-  margin-left: 0px;
-  margin-top: 20px;
+  padding: 10px 10px;
+  width: 70%;
+  margin-left: 85px;
+  margin-top: -86px;
 }
 .newsbgg {
   padding: 60px 10px;
@@ -65,6 +67,164 @@ button.navbar-toggler {
   color: #fff;
   opacity: 1;
 }
+.homemaintext h3 {
+  font-size: 30px;
+}
+.videotextcent {
+  text-align: left;
+}
+.videbttn img {
+  padding-top: 10px;
+}
+.headermenusec {
+  padding: 7px 0px !important;
+}
+.meqtext {
+  font-size: 15px;
+}
+.meqimgg {
+  width: 20px;
+}
+br {
+  display: none !important;
+}
+.ourtext h3 {
+  font-size: 20px;
+}
+
+element.style {
+}
+.ourtext p {
+    font-size: 14px;
+    margin: 0;
+}
+.ourboxbg {
+  margin-bottom: 14px;
+}
+.padd-le {
+  padding-left: 15px;
+}
+.abuttext p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.abuttext h3 {
+  font-size: 21px;
+}
+.We-sec p { 
+  padding-top: 10px;
+}
+.We-sec h4 {
+  font-size: 90px;
+}
+.We-sec2 p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.secredbtn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.secredbtn a {
+  font-size: 14px;
+}
+.serbgg {
+  height: auto;
+  padding: 30px 15px;
+}
+.paddser {
+  padding: 5px;
+}
+.bggsebox {
+  margin-bottom: 10px;
+}
+.secbannerbg {
+  padding: 10px 20px;
+  margin-top: -52px;
+}
+.switch-container {
+  margin-top: 25px !important;
+}
+.secbesbtn , .secbesbtn2 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.Basicbgg , .Basicbgg2 {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.lefttextbas {
+  border-right: 0;
+}
+.ictext , .ictext2{
+  padding-left: 0px;
+}
+.getttext h3 {
+    font-size: 23px;
+}
+.secbtnget {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.imgcontext {
+  width: 70%;
+}.timesec {
+  font-size: 14px;
+  padding-top: 0px;
+  margin-bottom: 0;
+}
+.meqtext2 {
+  font-size: 16px;
+}
+.secshop {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 30px;
+}
+.shopbtnsec {
+  padding-bottom: 40px;
+}
+.webmainsec {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+.secwebgco {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.swetectcol {
+  padding: 40px 20px;
+}
+.wlltext {
+  font-size: 17px !important;
+}
+.wellacccsec h4 {
+  font-size: 15px;
+}
+.wellacccsec p {
+  font-size: 14px;
+}
+.wellacccsec::after {
+  height: 300px;
+}
+.image-nav {
+  padding-bottom: 65px;
+}
+.prev.slick-arrow span i , .next.slick-arrow span i {
+  font-size: 25px;
+  padding: 9px 11px;
+}
+.maintextsli p{
+  font-size: 15px;
+}
+.Eml h4{
+  font-size: 18px;
+}
+.secqutext {
+  margin: 0;
+}
+
+
 }
 
 

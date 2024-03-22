@@ -566,6 +566,9 @@ p.secnumberbg {
 .shopbtnsec a:hover {
     background: #EB008B;
 }
+.videotextcent{
+    text-align: center;
+}
 
 .webmainsec {
     padding-bottom: 50px !important;
