@@ -939,3 +939,41 @@ padding: 7px 10px;
     display: flex;    
     justify-content: flex-end;
   }
+/* about */
+  .yearbg22 {
+    background-image: url(../images/YEARBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 60px 200px;
+}
+.imgtopsec33 {
+    margin-top: -180px;
+}
+.ourpadding{
+    padding: 60px 10px;
+}
+.ourpadding2{
+    padding: 0px 10px 60px 10px;
+}
+.storytext h3{
+    font-family: 'Playball';
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 500;
+    color: #F2F2F2;
+}
+.storytext h4{
+    font-family: 'Libre Baskerville';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    color: #202031;
+    margin-top: -190px;
+    text-align: right;
+}
+.storytext2 p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+}
