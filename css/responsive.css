@@ -68,7 +68,7 @@ button.navbar-toggler {
   opacity: 1;
 }
 .homemaintext h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 .videotextcent {
   text-align: left;
@@ -272,7 +272,114 @@ element.style {
   justify-content: flex-start;
   padding-bottom: 10px;
 }
+.sectextserves {
+  font-size: 22px;
+  padding-top: 28px;
 }
+.secformpading{
+  padding: 0px !important;
+}
+.servbackgroud {
+  padding-bottom: 0px;
+}
+/* serves */
+.shadow.p-5.mb-5.bg-white.rounded {
+  padding: 20px 10px !important;
+}
+.sec-ser-hh {
+  font-size: 17px;
+}
+.sec-sev-book-h {
+  font-size: 16px;
+}
+.sec-sev-book-p {
+  font-size: 17px;
+  line-height: 28px;
+  text-align: left;
+}
+.sec-menu-btn22 {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 9px 13px;
+}
+.sec-erv-book {
+  padding: 30px 0px;
+}
+/* serves--end */
+
+/* about */
+.yearbg22 {
+  height: 200px;
+  padding: 30px 20px;
+}
+.imgtopsec33 {
+  margin-top: -65px;
+}
+.storytext h3 {
+  font-size: 85px;
+}
+.storytext h4 {
+  font-size: 30px;
+  margin-top: -86px;
+  text-align: center;
+}
+.ourpadding {
+  padding: 30px 10px 10px 10px;
+}
+.storytext2 p {
+  font-size: 16px;
+}
+.ourpadding2 {
+  padding: 0px 10px 40px 10px;
+}
+.secValuesbg {
+  padding: 30px 10px;
+}
+.valumain {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-direction: column;
+}
+.valimg h3 {
+  font-size: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.meetsectext {
+  font-size: 23px;
+  padding-top: 30px;
+}
+.meetimg h3 {
+  padding-bottom: 0px;
+}
+.meetimg {
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.seccolgarr {
+  margin-top: 0px;
+}
+.mobil {
+  padding-bottom: 10px;
+}
+.newblogimgtext2 {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.detalnesbgg h3 {
+  font-size: 20px;
+}
+.detalnesbgg {
+  padding: 30px 10px;
+}
+.detalnesbgg p {
+  font-size: 16px;
+}
+}
+
 
 
 

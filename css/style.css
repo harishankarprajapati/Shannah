@@ -6,9 +6,10 @@
 .headermenusec {
     color: #090909;
     font-family: 'Manrope';
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .headermenusec:hover {
@@ -975,5 +976,272 @@ padding: 7px 10px;
 .storytext2 p{
     font-family: 'Roboto';
     font-size: 18px;
+    font-style: normal;
+}
+.secValuesbg{
+    background-color: #F2F2F2;
+    padding: 60px;
+}
+.valtext{
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    color: #202031;
+}
+.valumain{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px 0px 30px;
+}
+.valimg{
+    text-align: center;
+}
+.valimg h3{
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #202031;
+    padding-top: 20px;
+}
+.meetsectext{
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    color: #202031;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.meetimg h4{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FBA92C;
+    padding-top: 20px;
+}
+.meetimg h3{
+    font-family: 'Libre Baskerville';
+    font-size: 30px;
+    color: #202031;
+    padding-bottom: 60px;
+}
+/* servers */
+
+
+.servbackgroud{
+    background-image: url(../images/servbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.sectextserves{
+    font-family: 'Libre Baskerville';
+    font-size: 60px;
+    color: #000;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* servers-fom*/
+
+.sec-btn-margin {
+    margin-top: 21px;
+}
+
+label {
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+    color: #000000;
+}
+
+.form-control {
+    font-family: 'Roboto' !important;
+    font-size: 18px !important;
+    color: #9E9E9E !important;
+}
+.sec-menu-btn2 {
+    background:#EB008B;
+    font-family: 'Manrope';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+}
+
+.sec-menu-btn2:hover {
+    background:#ff71c4;
+    color: #fff;
+}
+/* servers-fom--end*/
+
+/* serverbook */
+
+.sec-ser-hh {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-erv-book {
+    padding: 60px 0px;
+}
+
+.sec-bord-serv {
+    border-bottom: 1px solid #DCDCDC;
+    padding: 20px 0px 0px 0px;
+}
+
+.sec-sev-book-h {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin: 0;
+}
+
+.sec-sev-book-p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 368%;
+    margin: 0;
+    text-align: center;
+    color: #898989;
+}
+.sec-menu-btn22 {
+    background: #EB008B;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    padding: 10px 17px;
+}
+
+.sec-menu-btn22:hover {
+    background: #ff7ac7;
+}
+/* serverbook--end */
+
+/* contact-page */
+.sec-contact-padding{
+    padding: 60px 10px;
+}
+.sec-cont-hh{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #202031;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.sec-cont-pp {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.seccont-add-h {
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.seccont-add-p{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.sec-contact-padding{
+    padding: 60px 0px;
+}
+
+.navbar:before, .navbar:after {
+    display: table;
+    content: " ";
+    display: none;
+}
+/* gallery */
+.gallery-container{
+    padding: 60px 10px;
+}
+.seccolgarr{
+    margin-top: -100px;
+}
+.gallimg img{
+    padding-bottom: 10px;
+}
+
+/* News And Blogs */
+.newspadd{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.newblogimgtext2 p {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #A6A2AC;
+    padding-top: 20px;
+}
+.newblogimgtext2 span {
+    background-color: #97CA45;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #fff;
+    padding: 1px 20px;
+    border-radius: 20px;
+}
+.newblogimgtext2 h4 {
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    color: #000;
+}
+.redbtnsc2 {
+    font-family: 'Manrope';
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.redbtnsc2:hover {
+    color: #FBA92C;
+}
+.newblogimgtext2 {
+    padding-bottom: 40px;
+}
+/* detalnesbgg */
+.detalnesbgg{
+    padding: 60px 10px;
+}
+.detalnesbgg h3{
+    font-size: 30px;
+    font-family: 'Libre Baskerville';
+}
+.detalnesbgg p{
+    font-family: 'Roboto';
+    font-size: 20px;
     font-style: normal;
 }
